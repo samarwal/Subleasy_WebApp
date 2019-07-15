@@ -4,39 +4,41 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/global_style.css">
 	<link rel="stylesheet" type="text/css" href="styles/index_style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
-	<ul>
-		<li><a href="restaurant_list.html">Restaurants</a></li>
-		<li><a class="company_bar" href="index.html"><img src="images/logo_transparent.png" height="50"></a></li>
-	</ul>
 	<div class="welcome_header">
 		<h1 style="color: darkblue;"><b>SubLeasy</b></h1>
+		<br>
+		<h3 style="color: darkorange;">"#1 Website for Finding Sublets"</h1>
 	</div>
-	<form class="search-containers">
-		<div id="parent">
-			<input type="text" id="search-bar-restaurant" placeholder="Search for Restaurants">
-		</div>
-		<select class="browser-default custom-select">
-			<option selected>Choose a city</option>
-			<option value="1">Toronto</option>
-			<option value="2">Montreal</option>
-			<option value="3">Ottawa</option>
-			<option value="3">Kingston</option>
-		</select>
-		</div>
-		</div>
-		<div class="dropdown">
-			<button class="dropbtn">Search by meal type</button>
-			<div class="dropdown-content">
-				<a href="restaurant_list.html">Breakfast</a>
-				<a href="restaurant_list.html">Lunch</a>
-				<a href="restaurant_list.html">Dinner</a>
-				<a href="restaurant_list.html">Other</a>
-			</div>
+
+	<form class="search-containers align-content-center">
+		<div class="form-row">
+			<select class="form-control col-5" id="city">
+				<option selected>Location</option>
+				<option value="1">Toronto</option>
+				<option value="2">Montreal</option>
+				<option value="3">Ottawa</option>
+				<option value="3">Kingston</option>
+			</select>
+			<select class="form-control col-5" id="numRooms">Rooms
+				<option selected>Rooms</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5+</option>
+			</select>
+			<button class="btn btn-submit btn-info" type="submit">Search</button>
 		</div>
 	</form>
+
+	<div class="fixed-bottom">
+		<a style="float: right" href="./checkout.html"><button type="button" class="btn btn-default btn-info">Any
+				Questions?</button><a>
+	</div>
 </body>
 
 </html>

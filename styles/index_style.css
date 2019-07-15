@@ -1,5 +1,11 @@
+html{
+	min-height: 100%;
+	min-width: 100%;
+	margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
-	background-image: url(../images/home_background.png);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #666666;
@@ -13,12 +19,20 @@ body {
 .welcome_header {
 	padding: 70px;
 	text-align: center;
+	position: relative;
+	width: 100%;
+	top: 15%;
 }
 
 .search-containers{
-	width: 300px;
 	display: block;
-	margin: 0 auto;
+	position: relative;
+	top: 15%;
+	margin-left: 7.5%;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	align-self: center;
 
 }
 
