@@ -100,6 +100,12 @@
 		<div class="container">
 			<a href=""><i class="fa fa-home"></i>Home</a>
 			<span><i class="fa fa-angle-right"></i>Featured Listings</span>
+			<div id="myBtnContainer">
+  				<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  				<button class="btn" onclick="filterSelection('cars')"> 4 months</button>
+  				<button class="btn" onclick="filterSelection('animals')"> 8 months</button>
+  				<button class="btn" onclick="filterSelection('fruits')"> 12 months</button>
+			</div>
 		</div>
 	</div>
 
@@ -126,7 +132,7 @@
 										<p><i class="fa fa-bed"></i> 3 Bedrooms</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-car"></i> 2 Garages</p>
+										<p><i class="fa fa-calendar"></i>8 months</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
 									</div>	
 								</div>
@@ -135,7 +141,7 @@
 										<p><i class="fa fa-user"></i> Tony Holland</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
+										<p><i class="fa fa-clock-o"></i>Sept </p>
 									</div>	
 								</div>
 							</div>
@@ -161,7 +167,7 @@
 										<p><i class="fa fa-bed"></i> 2 bedroom in 5 bedrooms</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-car"></i> 2 Garages</p>
+										<p><i class="fa fa-calendar"></i>8 months</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
 									</div>	
 								</div>
@@ -196,7 +202,7 @@
 										<p><i class="fa fa-bed"></i> 2 bedrooms in 4 bedrooms</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-car"></i> 1 Garage</p>
+										<p><i class="fa fa-calendar"></i>8 months</p>
 										<p><i class="fa fa-bath"></i> 4 Bathrooms</p>
 									</div>	
 								</div>
@@ -647,5 +653,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/filter.js"></script>
 </body>
 </html>
