@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<script src="./js/filter.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 
 
 	<!--[if lt IE 9]>
@@ -101,7 +103,7 @@
 			<a href=""><i class="fa fa-home"></i>Home</a>
 			<span><i class="fa fa-angle-right"></i>Featured Listings</span>
 			<div id="myBtnContainer">
-  				<button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  				<button class="btn active" onclick="filter([0,0,0,0])"> Show all</button>
   				<button class="btn" onclick="filterSelection('cars')"> 4 months</button>
   				<button class="btn" onclick="filterSelection('animals')"> 8 months</button>
   				<button class="btn" onclick="filterSelection('fruits')"> 12 months</button>
@@ -111,7 +113,7 @@
 
 
 	<!-- page -->
-	<section class="page-section categories-page">
+	<section id="listings" class="page-section categories-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
@@ -129,11 +131,11 @@
 								<div class="room-info">
 									<div class="rf-left">
 										<p><i class="fa fa-th-large"></i> 700 Square foot</p>
-										<p><i class="fa fa-bed"></i> 3 Bedrooms</p>
+										<p class="numBedrooms"><i class="fa fa-bed"></i> 3 Bedrooms</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-calendar"></i>8 months</p>
-										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
+										<p class="numDuration"><i class="fa fa-calendar"></i>8 months</p>
+										<p class="numBathrooms"><i class="fa fa-bath"></i> 2 Bathrooms</p>
 									</div>	
 								</div>
 								<div class="room-info">
@@ -141,7 +143,7 @@
 										<p><i class="fa fa-user"></i> Tony Holland</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-clock-o"></i>Sept </p>
+										<p><i class="fa fa-clock-o"></i>September</p>
 									</div>	
 								</div>
 							</div>

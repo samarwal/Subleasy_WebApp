@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "rooms": 3,
+        "tot_rooms": 3,
+        "price": 1700,
+        "user": "Tony Holland",
+        "time_ago": "Sept",
+        "duration": 8,
+        "bathrooms": 2,
+        "area": 700,
+        "address": "1963 S Crescent Heights Blvd",
+        "city": "Toronto, Canada M4B 1B3"
+
+    },
+    {
+        "id": 1,
+        "rooms": 2,
+        "tot_rooms": 5,
+        "price": 1000,
+        "user": "Gina Wesley",
+        "time_ago": "1 day ago",
+        "duration": 8,
+        "bathrooms": 2,
+        "area": 900,
+        "address": "305 North Palm Drive",
+        "city": "Toronto, Canada M4B 1B7"
+
+    }
+]
