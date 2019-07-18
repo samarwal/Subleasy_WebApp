@@ -84,6 +84,9 @@ ol {
 	Helper CSS
 -----------------------*/
 
+#titlecolor a{
+	color: white;
+}
 .section-title {
 	margin-bottom: 60px;
 }
