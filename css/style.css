@@ -84,6 +84,9 @@ ol {
 	Helper CSS
 -----------------------*/
 
+#titlecolor a{
+	color: white;
+}
 .section-title {
 	margin-bottom: 60px;
 }
@@ -128,7 +131,6 @@ ol {
 /* Buttons */
 
 .site-btn {
-	position: relative;
 	display: inline-block;
 	padding: 15px 30px;
 	font-size: 16px;
@@ -142,6 +144,7 @@ ol {
 	cursor: pointer;
 	border: none;
 	color: #fff;
+	float:right;
 }
 
 /* Preloder */
@@ -330,12 +333,14 @@ ol {
 .filter-search {
 	position: relative;
 	z-index: 2;
+	height: 150px;
 }
 
 .filter-form {
 	padding: 31px;
 	background: #30caa0;
 	border-radius: 3px;
+	align-items: center;
 }
 
 .filter-form input {
