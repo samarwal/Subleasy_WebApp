@@ -83,19 +83,19 @@
 	<div class="filter-search">
 		<div class="container">
 			<form class="filter-form">
-				<select>
-					<option value="City">City</option>
-					<option value="volvo">Toronto</option>
-					<option value="saab">Montreal</option>
-					<option value="mercedes">Ottawa</option>
+				<select id="city">
+					<option value="none">City</option>
+					<option value="toronto">Toronto</option>
+					<option value="montreal">Montreal</option>
+					<option value="ottawa">Ottawa</option>
 				</select>
-				<select>
-					<option value="City">Number of Rooms</option>
-					<option value="volvo">1</option>
-					<option value="saab">2</option>
-					<option value="mercedes">3+</option>
+				<select id="duration">
+					<option value="0">Number of Months</option>
+					<option value="4">4</option>
+					<option value="8">8</option>
+					<option value="12">12</option>
 				</select>
-				<a href="allToronto.html" button class="site-btn fs-submit">SEARCH</button></a>
+				<a button class="site-btn fs-submit" onclick="redirTo()">SEARCH</button></a>
 			</form>
 		</div>
 	</div>
@@ -105,6 +105,7 @@
                                         
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/search.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
